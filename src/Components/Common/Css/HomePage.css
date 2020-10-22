@@ -1,0 +1,120 @@
+.App {
+  /* padding-bottom: 100px; */
+  margin-bottom: 100px;
+}
+.App-AppBar{
+    height:60px;
+    position: fixed;
+  }
+  
+  .switchDiv{
+    background-color: #d4e3fc;
+  }
+  .searchIP{
+    text-indent: 20px;
+  }
+
+  .cardLength {
+    position: absolute;
+    top:-5px;
+    right: 55px;
+    background: crimson;
+    font-size: 10px;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* .logoText{
+    display: none;
+  } */
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+      .App-LogoDiv{
+        font-size: 25px;
+        margin-left: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+      }
+  
+  
+      .App-SearchDiv{
+        background-color: white;
+        margin-left: 25px;
+        height: 42px;
+  
+      }
+  
+      .searchIP{
+        float: left;
+        height: 40px;
+        width: 200px;
+        font-size: 17px;
+        border: none;
+      }
+  
+      .AccountCircleImg{
+        font-size: 40px;
+  
+      }
+  
+      .topBar2{
+        width: 100%;
+        height: 30px;
+        background-color: #c0c0c0;
+      }
+  
+      .locationWarraper{
+        position: absolute;
+        z-index: 1;
+        width: 600px;
+        background-color: green;
+        visibility: hidden;
+      }
+  
+      .DisButton{
+        margin-left: 20px;
+        height: 40px;
+        width: 140px;
+        border: None;
+        text-align: left;
+        border-bottom: 2px solid #03a9f4;
+  
+      }
+      .DistrictHeading{
+        text-align: center;
+      }
+  
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .searchIP{
+      width: 240px;
+    }
+  }
+  
+  @media only screen and (min-width: 860px) {
+    .searchIP{
+      width: 300px;
+    }
+  }
+  
+  
+  *:focus {outline:0;}
+  
+  @media only screen and (min-width: 1200px) {
+    .searchIP{
+      width: 450px;
+    }
+  }
+  @media only screen and (min-width: 1300px) {
+    .App-SearchDiv{
+      margin-left: 50px;
+    }
+  }
+  

@@ -1,0 +1,137 @@
+/* .paymentform{
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border: solid blue;
+} */
+/* .paymentform button{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+} */
+/* #tttt{
+    background-color: blue;
+    color: white;
+    border: crimson;
+    border-style: double;
+    padding: 110px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+} */
+.payment_d{
+    width: 90%;
+    margin: auto;
+}
+#paper1{
+    background-color:white;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+}
+.heading{
+    /* width: 90%;
+    margin: auto; */
+    position: relative;
+    top: 30px;
+    /* left: 40px; */
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.heading p{
+    margin-right: -30%;
+}
+.heading #oder{
+    /* margin-right: 80px; */
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    width: 200px;
+    height: 50px;
+}
+.boder{
+    /* width: 90%;
+    margin: auto; */
+    margin-top: 50px;
+    border: black solid;
+    background-color: white;
+}
+.detail_1{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box{
+    border: yellow solid;
+    height:90%;
+    width: 90%;
+    /* padding: 10px; */
+    margin: auto;
+    margin-bottom:30px;
+}
+
+.box h3{
+    margin-left: 3%;
+}
+
+
+#EDIT_B{
+    margin-right: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+    float: right;
+}
+.total_B{
+    position: relative;
+    margin-left: 70%;  
+}
+.total_B .total_d{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.total_B .total_d .price_d{
+    text-align: end;
+}
+.total_B #oder_2{
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+
+.heading{
+    /* width: 90%;
+    margin: auto; */
+    position: relative;
+    top: 30px;
+    /* left: 40px; */
+    color: black;
+    display: flex;
+    background-color: red;
+    height: 50px;
+}
+.heading h2{
+  display: flex;
+  margin: auto;
+  color: white;
+}

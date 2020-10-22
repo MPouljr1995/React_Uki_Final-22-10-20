@@ -1,0 +1,99 @@
+
+   body{
+    background-color: #d4e3fc;
+  }
+  
+  .profileDivWarraper{
+    margin: auto;
+    position: relative;
+    top: 10px;
+    width: 90%;
+    height: 700px;
+  
+  }
+  #profileHeading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #profileGrid{
+    position: relative;
+  }
+  #userNameDiv,#firstNameDiv,#lastNameDiv,#emailDiv,#phoneDiv,#addressDiv{
+    margin: auto;
+    width: 90%;
+    min-height: 150px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  #firstNamebox,#lastNamebox,#emailbox,#phonebox,#addressbox{
+    min-height:100px;
+  }
+  #userNameDivTitle,#firstNameDivTitle,#lastNameDivTitle,#emailDivTitle{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #userNameLabel,#firstNameLabel,#lastNameLabel,#emailLabel{
+    margin-left: 30px;
+    font-size: 22px;
+  }
+  #firstNameEditeBtn,#lastNameEditeBtn,#emailEditeBtn,#phoneEditeBtn,#addressEditeBtn{
+    float: right;
+    border: 2px solid  #03a9f4;
+    background-color:  #03a9f4;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  #firstNameEditeCancelBtn,#lastNameEditeCancelBtn,#emailEditeCancelBtn,#phoneEditeCancelBtn,#addressEditeCancelBtn{
+    float: right;
+    border: 2px solid  #03a9f4;
+    background-color:  #03a9f4;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #firstNameEditeUpdateBtn,#lastNameEditeUpdateBtn,#emailEditeUpdateBtn,#phoneEditeUpdateBtn,#addressEditeUpdateBtn{
+    float: right;
+    border: 2px solid  #03a9f4;
+    background-color:  #03a9f4;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  #firstNameIp,#proLastNameIp,#emailIp{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+  }
+  /*
+  .profileSideDiv{
+    width: 100%;
+    float: left;
+    border-right: 1px solid black;
+  }
+  
+  
+  #proSideDivBtn{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    background-color: #03a9f4;
+    color: white;
+    border: 2px solid #03a9f4;
+    font-weight: bold;
+  }
+  #proSideDivBtn:hover{
+    color: #03a9f4;
+    background-color: white;
+    border: 2px solid #03a9f4;
+  }
+  */
+  

@@ -1,0 +1,22 @@
+.productCardPD{
+    min-height: 500px;
+  }
+  .productDetailShowImgDiv{
+    margin-top: 30px;
+    width:90%;
+  }
+  #showImgPD1,#showImgPD2,#showImgPD3,#showImgPD4,#showImgPD5{
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid red;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #productTitlePD,#lastPrice,#salePrice,#offerPrice,#warranty{
+    width: 90%;
+    font-size: 25px;
+  }
+  #deleteBtn{
+    float: right;
+  }
+  

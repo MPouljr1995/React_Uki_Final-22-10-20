@@ -1,0 +1,11 @@
+.shopProfileMain {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    height: 320px;
+}
+
+.shopProfileMain img {
+    max-width: 500px;
+    max-height: 500px;
+}

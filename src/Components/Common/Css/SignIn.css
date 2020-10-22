@@ -1,0 +1,27 @@
+#signInCard{
+    margin:auto;
+    margin-top: 150px;
+    height:400px;
+    width:600px;
+  
+  
+  }
+  #signinTitle{
+    color: #03a9f4;
+  }
+  
+  
+  #signInIP1{
+    width:530px;
+    margin: auto;
+  }
+  #signInIP2{
+    width:500px;
+    margin: auto;
+  }
+  #signinBtn{
+    background-color: #03a9f4;
+    color: white;
+    font-weight:bold;
+  }
+  

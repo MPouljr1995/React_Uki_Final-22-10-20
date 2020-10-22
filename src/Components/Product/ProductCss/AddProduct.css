@@ -1,0 +1,75 @@
+#addProductMainDiv{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #productTitleDiv,#productCategoryDiv,#productImageInputDiv,#productDescriptionDiv,#productBrandDiv,#productModelDiv,#productLastPriceDiv,#productSalePriceDiv,#productWarrantyDiv{
+    width:90%;
+    min-height: 150px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  #productImageInputDiv,#productDescriptionDiv{
+    min-height: 250px;
+  }
+  
+  #producTitleText,#producCategoryText,#producImageText{
+    margin-left: 20px;
+    position:relative;
+    top: 10px;
+  }
+  
+  
+  #sortSelect{
+    width:90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+  
+  #imgPreview1,#imgPreview2,#imgPreview3,#imgPreview4,#imgPreview5{
+    float: left;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 20px;
+  
+  }
+  
+  #productDesId,#productTitleIp,#sortSelectIp,#productBrandIP,#productModelIP,#productLastPriceIP,#productSalePriceIP,#productWarrantyIP{
+    position: relative;
+    top: 20px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+  
+  }
+  #productDesId{
+    min-height: 150px;
+    resize: none;
+  }
+  #addProductDiv{
+    float: right;
+  }
+  #addProductBtn{
+    margin-right: 30px;
+    background-color:  #03a9f4;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .fileInput1,.fileInput2,.fileInput3,.fileInput4,.fileInput5{
+    position: absolute;
+    background-color: red;
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .addItemImg1,.addItemImg2,.addItemImg3,.addItemImg4,.addItemImg5{
+    margin-top: 0px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  

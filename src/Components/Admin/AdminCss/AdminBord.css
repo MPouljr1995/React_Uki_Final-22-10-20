@@ -1,0 +1,15 @@
+#adminMainDiv{
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+  }
+  #shopDetailsDiv,#userDetailsDiv,#productDetailsDiv,#orderDetailsDiv{
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+  }
+  #shopDetailsTitle,#userDetailsDiv,#productDetailsTitle,#orderDetailsTitle{
+    text-align: center;
+  }
+  

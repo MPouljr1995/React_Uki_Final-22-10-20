@@ -1,0 +1,124 @@
+.searchMainDiv{
+    margin: auto;
+    margin-top: 100px;
+    height: 150px;
+    width: 95%;
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px;
+  }
+  .priceBox,.sortBox,.warrantyBox,.applyBtnBox{
+    width: 80%;
+    margin-left: 10%;
+  
+  }
+  .minPriceInput,.maxPriceInput{
+    width: 50%;
+    position: relative;
+    top:10px;
+  }
+  .maxPriceInput{
+    left: 15%;
+  }
+  .sortSelect{
+    position: relative;
+    width:100% ;
+    top:10px;
+  }
+  .warrantyInput{
+    position: relative;
+    width:100% ;
+    top:10px;
+  }
+  .sortBox{
+    position: relative;
+    left: 10%;
+  }
+  .applyBtn{
+    position: relative;
+    width:50% ;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    /* top: 34px; */
+  }
+  
+  
+  
+  
+  .searchResultDiv{
+    margin: auto;
+    margin-top: 50px;
+  }
+  .productCard{
+    width: 90%;
+    margin: auto;
+  }
+  .productTitle{
+    text-align: center;
+    font-size: 18px;
+    height: 46px;
+  
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .showImgDiv{
+    height: 200px;
+  }
+  .showImg{
+    max-width: 100%;
+    max-height: 200px;
+    margin: auto;
+  }
+  #showImg{
+    max-width: 100%;
+    max-height: 200px;
+    margin: auto;
+    display: flex;
+  
+  }
+  .sellPrice{
+    text-align: center;
+    font-size:18px;
+  }
+  .offerPrice{
+    color: red;
+    text-align: center;
+    text-decoration: line-through;
+  }
+  
+  
+  @media only screen and (min-width: 992px) {
+    .showImgDiv{
+      height: 200px;
+  
+    }
+    .showImg{
+      max-width: 100%;
+      max-height: 200px;
+      margin: auto;
+    }
+    #showImg{
+      max-width: 100%;
+      max-height: 200px;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 1092px) {
+    .showImgDiv{
+      height: 250px;
+  
+    }
+    .showImg{
+      max-width: 100%;
+      max-height: 250px;
+      margin: auto;
+    }
+    #showImg{
+      max-width: 100%;
+      max-height: 250px;
+      margin: auto;
+    }
+  }
+  
